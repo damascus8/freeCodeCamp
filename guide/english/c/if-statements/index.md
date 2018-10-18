@@ -31,6 +31,51 @@ int main(void) {
 output:
 Statement is True!
 ```
+//new examples
+## A Simple Example
+example on if loop inside while loop used for printing even and odd numbers .
+
+```C
+#include <stdio.h>
+
+int main()
+{
+    int i=1,x; 
+    printf("enter your number\t:");
+    scanf("%d",&x);
+    
+    while(i<=x)
+    {
+    //printf("%d\n",i);
+    if(i%2==0)
+    {printf("%d is even\n",i);}
+    else
+    {
+    printf("%d is odd\n",i);    
+    }
+       i++;
+    }
+    return 0;
+}
+```
+```
+output:
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Just like helloworld.c, stdio.h has been included. New in this program is stdbool.h, which is the standard boolean library- it contains code that gives us access to 'true' and 'false'.
 
